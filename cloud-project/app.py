@@ -6,9 +6,9 @@ import json
 app = Flask(__name__)
 
 S3_BUCKET = 'pakshal-b00935061-images'
-S3_ACCESS_KEY = 'ASIATCG46ZXRB7OVLELB'
-S3_SECRET_KEY = 'Xu/PhwTVDR8NHywC9FgyovL/2y/g8YrnxIAX2DzA'
-S3_SESSION_TOKEN = 'FwoGZXIvYXdzEPb//////////wEaDMgYyLvj+7xzKVTrKiLAAWmBYHpW2TYzRzfW8XbcLrtgCYHAZerzkXoPJyCxsZzyO68LeBb13ytSiljCFDfYjb1UKh6Q5o97n7SydON50o5EkHKkOEDuRRet4Cn6xC5EeNHmYpl2PAWUvKOvN+3KxUSoAJUi+hwkeNoUUdHOCAGG6zoR2dfUMEFmYwp+JdEzAIEEtBWU/ncdgtbtM9RJvSb9vab2+ehHPYkYy4UMZGSO5wA3aIZ9v7i8wX3/P/aRUP+icJU42e+t1Al2oM5edCjov5CmBjItDgO+bpcmdFNJL1ZzmjSkZ6dbayhHyNPN6D0hgKQKfIyxidwWWxukOWnCiQmT'  
+S3_ACCESS_KEY = 'ASIATCG46ZXRLMIQWPD2'
+S3_SECRET_KEY = 'fb5MZQGU8rVU3T0yIfFbBCMXO6LWPWosrqudNr0g'
+S3_SESSION_TOKEN = 'FwoGZXIvYXdzEPr//////////wEaDFSTpo7nXk8tKpVD4CLAASlhuMw8U9qciG/y8VCwhyqZEAUJQwWp6XsRS5ZXlBKz3EGoHzEZH/Xu6F8AGenWQtwGs27AGj6hSqme80aOIYmb/BmTcT2TrU60xY7nCoFpzlmxZytiJKWTSeVwsu8DYQbKaVNoCj2M03YLl92amvjeO+2kC3/9ucbHTFrycGQaHIuzKHUeJ/duCjCMU1Cnouts72YJds/1vLGbngCPWfiLMea1WZO5ECj/WkGClEnjsGw+Jwln6ss0ilx/eUa2JiiWupGmBjItlb9Qaad50jcSiLe/eqzbInh5j2yvCghr+2OZKtW6boLkOy/qt82dA6XlqZIT'  
 S3_LOCATION = f'http://{S3_BUCKET}.s3.amazonaws.com/'
 API_ENDPOINT = "https://re7padjoo7.execute-api.us-east-1.amazonaws.com/get-data" 
 
